@@ -1,0 +1,17 @@
+primary:
+  links:
+    # This is the simplest primary navigation item:
+    # a link with text and an href.
+    - text: Link one
+      href: /one
+
+    # This is an example of a drop-down section
+    # with nested links.
+    - text: Section two
+      links:
+        - text: Link A
+          href: /two/a
+        - text: Link B
+          href: /two/b
+        - text: Link C
+          href: /two/c

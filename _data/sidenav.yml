@@ -1,0 +1,15 @@
+# This data file describes different "common" side navigation
+# listings. You enable them on each page by setting `subnav` in the
+# page's frontmatter to the "name" of the subnav in this file, e.g.
+#
+# subnav: docs
+
+docs:
+  - text: Documentation
+    href: /docs/
+  - text: Installation
+    href: /docs/install/
+  - text: Upgrading
+    href: /docs/upgrade/
+  - text: Help
+    href: /docs/help/

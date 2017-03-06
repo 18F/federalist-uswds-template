@@ -1,0 +1,25 @@
+links:
+  - text: Link one
+    href: /one/
+  - text: Link two
+    href: /two
+  - text: Link three
+    href: /three
+  - text: Link four
+    href: /four
+
+heading: Name of agency
+
+logos:
+  # 
+  - src: /assets/img/us_seal.png
+    alt: Your org name
+
+contact:
+  heading: Contact us
+  address: |
+    This is formatted as **markdown**.
+
+    Lines separated by an empty line will each be marked up as paragraphs.
+
+    You can make links [like this](https://usa.gov).
