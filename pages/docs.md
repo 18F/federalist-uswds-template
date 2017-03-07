@@ -1,6 +1,10 @@
 ---
+title: Documentation
+permalink: /docs/
+
 layout: docs
 sidenav: docs
+
 subnav:
   - text: Section one
     href: '#section-one'
