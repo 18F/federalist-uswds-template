@@ -6,6 +6,7 @@ GIT
       jekyll (~> 3.4)
 
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
