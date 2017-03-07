@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/18F/jekyll-uswds.git
-  revision: 1d925a75ce7cf824ddc97f137a230ef19901dafe
-  tag: v0.1.1
+  revision: 0da45bdfcb20a4b0f450bf9a05986a9e0f4b3470
   specs:
     jekyll-uswds (0.1.1)
       jekyll (~> 3.4)
@@ -11,9 +10,9 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
-    ffi (1.9.17)
+    ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.0)
+    jekyll (3.4.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
