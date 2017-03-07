@@ -1,17 +1,22 @@
-primary:
-  links:
-    # This is the simplest primary navigation item:
-    # a link with text and an href.
-    - text: Link one
-      href: /one
+# This is the configuration for the site header.
 
-    # This is an example of a drop-down section
-    # with nested links.
-    - text: Section two
-      links:
-        - text: Link A
-          href: /two/a
-        - text: Link B
-          href: /two/b
-        - text: Link C
-          href: /two/c
+# Uncomment this statement (by removing the leading '# ') to set the
+# header title differently from the site's title (as defined in
+# _config.yml).
+# title: Header title
+
+primary:
+  # this is a key into _data/navigation.yml
+  links: primary
+
+secondary:
+  # this is a key into _data/navigation.yml
+  links: secondary
+
+  # to enable search, change this to an object with 'action' and
+  # 'param' keys, e.g.
+  #
+  # search:
+  #   action: /search/
+  #   param: q
+  search: false
