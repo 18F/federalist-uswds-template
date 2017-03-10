@@ -1,4 +1,4 @@
-# federalist-uswds-template
+# U.S. Web Design Standards template for Federalist
 This is a Federalist site template that incorporates the [U.S. Web Design
 Standards] [Jekyll theme].
 
