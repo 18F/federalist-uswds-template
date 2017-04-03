@@ -1,19 +1,19 @@
 GIT
-  remote: https://github.com/18F/jekyll-uswds.git
-  revision: d98f8da4cd7530957b24aa88d398281323719f8c
+  remote: https://github.com/18F/uswds-jekyll.git
+  revision: 0cdb819e6f49854ecb11acb4a5fb8a57b11b3937
   specs:
-    jekyll-uswds (0.1.1)
+    uswds-jekyll (1.0.0)
       jekyll (~> 3.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
-    ffi (1.9.10)
+    ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.1)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -48,7 +48,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll-uswds!
+  uswds-jekyll!
 
 BUNDLED WITH
    1.13.6

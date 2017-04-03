@@ -1,6 +1,6 @@
 title: Site title
 
-theme: jekyll-uswds
+theme: uswds-jekyll
 
 styles:
   - /assets/uswds/css/uswds.min.css
