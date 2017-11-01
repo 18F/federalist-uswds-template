@@ -13,6 +13,8 @@ primary:
 footer:
   - text: Documentation
     href: /docs/
+  - text: Suggest an edit 
+    href: https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}  
   - text: Demo link one
     href: /one/
   - text: Demo link two
