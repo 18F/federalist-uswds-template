@@ -10,15 +10,9 @@ primary:
       - text: Demo link C
         href: /two/c/
 
-footer:
-  - text: Documentation
+secondary:
+  - text: Download as PDF
     href: /docs/
-  - text: Demo link one
-    href: /one/
-  - text: Demo link two
-    href: /two/
-
-secondary: []
 
 docs:
   - text: Documentation
@@ -29,3 +23,11 @@ docs:
     href: /docs/upgrade/
   - text: Help
     href: /docs/help/
+
+footer:
+  - text: Documentation
+    href: /docs/
+  - text: Demo link one
+    href: /one/
+  - text: Demo link two
+    href: /two/
