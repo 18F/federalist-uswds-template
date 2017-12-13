@@ -5,6 +5,10 @@
 # _config.yml).
 # title: Header title
 
+# this defines the type of header
+# header types can be 'basic' or 'extended'
+type: none
+
 primary:
   # this is a key into _data/navigation.yml
   links: primary
