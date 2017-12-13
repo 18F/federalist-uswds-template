@@ -11,11 +11,11 @@ primary:
 
 secondary:
   # this is a key into _data/navigation.yml
-  links: 
+  links:
 
   # to enable search, change this to an object with 'action' and
   # 'query' keys, e.g.
   #
-  search:
-    action: /search/
-    query: q
+  # search:
+  #   action: /search/
+  #   query: q
