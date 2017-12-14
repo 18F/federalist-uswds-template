@@ -16,6 +16,6 @@ secondary:
   # to enable search, change this to an object with 'action' and
   # 'query' keys, e.g.
   #
-  # search:
-  #   action: /search/
-  #   query: q
+  search:
+    action: /search/
+    query: q
