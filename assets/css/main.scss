@@ -1,0 +1,12 @@
+---
+---
+
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
+
+@import 'uswds/all';
+
+// fix for overlay flashing on page reload
+.usa-overlay {
+  transition: opacity 0.2s ease-in-out;
+}
