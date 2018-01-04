@@ -7,7 +7,7 @@
 
 # this defines the type of header
 # header types can be 'basic' or 'extended'
-type: none
+type: basic
 
 primary:
   # this is a key into _data/navigation.yml
