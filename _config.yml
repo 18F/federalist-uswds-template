@@ -1,4 +1,6 @@
-title: Site title
+title: My site
+redirect_url: https://18f.gsa.gov
+redirect_time: 30
 
 theme: uswds-jekyll
 

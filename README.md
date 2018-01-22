@@ -1,12 +1,17 @@
-# U.S. Web Design Standards template for Federalist
-This is a Federalist site template that incorporates the [U.S. Web Design
-Standards] [Jekyll theme].
+# This is a Federalist site redirect template
 
-View the [theme documentation] for more info on available [layouts] and
-[customization] options.
+This site is a temporary redirect template, built in Jekyll.
 
-[U.S. Web Design Standards]: https://standards.usa.gov
-[Jekyll theme]: https://jekyllrb.com/docs/themes/
-[theme documentation]: https://github.com/18F/jekyll-uswds/#readme
-[layouts]: https://github.com/18F/jekyll-uswds/#layouts
-[customization]: https://github.com/18F/jekyll-uswds/#customization
+Edit the following information in your `_config.yml` file.
+
+```yml
+title: My site
+redirect_url: https://18f.gsa.gov
+redirect_time: 30
+```
+
+This will generate a message that reads:
+`My site` has moved to `https://18f.gsa.gov`.
+You will be redirected in `30` seconds...`
+
+You can also edit the `index.md` file in your pages directory to add additional information. 

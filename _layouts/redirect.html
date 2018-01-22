@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main id="main-content" {% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}" {% endfor %}>
+  <div class="usa-grid">
+    <div class="usa-alert usa-alert-info" style="margin-top: 5rem;">
+      <div class="usa-alert-body">
+        <p class="usa-alert-text">{{ site.title | escape }} has moved to <a href="{{ site.redirect_url | escape }}" title="{{ site.title | escape }}">{{ site.redirect_url | escape }}</a>.<br> You will be redirected in {{ site.redirect_time }} seconds...</p>
+      </div>
+    </div>
+    {{ content }}
+  </div>
+</main>
