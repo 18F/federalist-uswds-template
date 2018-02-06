@@ -1,32 +1,85 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    {% if site.google_analytics_ua or site.dap_agency %}
+      {% include analytics.html %}
+    {% endif %}
+  </head>
+  <body class="{{ layout.class }} {{ page.class }}">
 
-{% assign hero = page.hero %}
-{% include components/hero.html %}
+    {% include skipnav.html %}
 
-{% include header.html %}
+    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
 
-{% if page.tagline and page.intro %}
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-third">
-    <h2>{{ page.tagline }}</h2>
-  </div>
-  <div class="usa-width-two-thirds">
-    {{ page.intro | markdownify }}
-  </div>
-</section>
-{% endif %}
+      {% assign hero = page.hero %}
 
-{% capture _graphics %}
-  {% include graphic-list.html graphics=page.graphics %}
-{% endcapture %}
-{% if page.graphics_position != 'after' %}{{ _graphics }}{% endif %}
+      {% include components/hero.html %}
 
-<section class="usa-section">
-  <div class="usa-grid">
-    {{ content }}
-  </div>
-</section>
+      {% include header.html %}
 
-{% if page.graphics_position == 'after' %}{{ _graphics }}{% endif %}
+      {% if page.tagline and page.intro %}
+        <section class="usa-grid usa-section">
+          <div class="usa-width-one-third">
+            <h2>{{ page.tagline }}</h2>
+          </div>
+          <div class="usa-width-two-thirds">
+            {{ page.intro | markdownify }}
+          </div>
+        </section>
+      {% endif %}
+
+      {% capture _graphics %}
+        {% include graphic-list.html graphics=page.graphics %}
+      {% endcapture %}
+
+      {% if page.graphics_position != 'after' %}{{ _graphics }}{% endif %}
+
+      {% if page.graphics_position == 'after' %}{{ _graphics }}{% endif %}
+      {{ page.sections.title }}
+
+      {% for section in page.sections %}
+      <div class="usa-section {% if section.background %} usa-section-dark {% endif %}">
+        <div class="usa-grid">
+         <h2>{{ section.title }}</h2>
+       <!--
+       To properly render markdown includes as HTML, the include tag must be
+       captured as a string, and this must be passed to the `markdownify` filter.
+       -->
+       {% capture section_description %}{% include /{{ section.description }} %}{% endcapture %}
+       {{ section_description | markdownify }}
+
+       <!--
+       The following will not parse the markdown include - it won't be properly
+       rendered into HTML and will display as the original markdown.
+       -->
+       {% comment %}
+       {% include /{{ section.description }} %}
+       {% endcomment %}
+
+
+       <div class="thumbnail">
+         <!--
+         Build the image markup for this section. If an image-caption has been
+         defined, display it.
+         -->
+         <img src="{{ site.baseurl }}/{{ section.image }}" title="{{ section.title }}" alt="{{ section.title }}" class="img-responsive">
+         {% if nil != service.img-caption %}
+           <div class="img-caption">{{ service.img-caption }}</div>
+         {% endif %}
+       </div>
+     </div>
+   </div>
+      {% endfor %}
+
+    </main>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+</html>

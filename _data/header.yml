@@ -3,7 +3,12 @@
 # Uncomment this statement (by removing the leading '# ') to set the
 # header title differently from the site's title (as defined in
 # _config.yml).
+
 # title: Header title
+
+# Used to show or hide the official usa banner at the top of the site.
+# Comment out to the following line to hide the usa banner.
+usa_banner: false
 
 # this defines the type of header
 # header types can be 'basic' or 'extended'
@@ -16,11 +21,3 @@ primary:
 secondary:
   # this is a key into _data/navigation.yml
   links: secondary
-
-  # to enable search, change this to an object with 'action' and
-  # 'param' keys, e.g.
-  #
-  # search:
-  #   action: /search/
-  #   param: q
-  search: false
