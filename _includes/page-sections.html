@@ -1,0 +1,9 @@
+{% for section in page.sections %}
+  <div class="usa-section {% if section.class %} {{section.class}} {% endif %}">
+    <div class="usa-grid">
+      <h2>{{ section.title }}</h2>
+      {% capture section_description %}{% include /{{ section.description }} %}{% endcapture %}
+      {{ section_description | markdownify }}
+    </div>
+  </div>
+{% endfor %}

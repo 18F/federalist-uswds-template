@@ -41,39 +41,9 @@
       {% if page.graphics_position == 'after' %}{{ _graphics }}{% endif %}
       {{ page.sections.title }}
 
-      {% for section in page.sections %}
-      <div class="usa-section {% if section.background %} usa-section-dark {% endif %}">
-        <div class="usa-grid">
-         <h2>{{ section.title }}</h2>
-       <!--
-       To properly render markdown includes as HTML, the include tag must be
-       captured as a string, and this must be passed to the `markdownify` filter.
-       -->
-       {% capture section_description %}{% include /{{ section.description }} %}{% endcapture %}
-       {{ section_description | markdownify }}
-
-       <!--
-       The following will not parse the markdown include - it won't be properly
-       rendered into HTML and will display as the original markdown.
-       -->
-       {% comment %}
-       {% include /{{ section.description }} %}
-       {% endcomment %}
-
-
-       <div class="thumbnail">
-         <!--
-         Build the image markup for this section. If an image-caption has been
-         defined, display it.
-         -->
-         <img src="{{ site.baseurl }}/{{ section.image }}" title="{{ section.title }}" alt="{{ section.title }}" class="img-responsive">
-         {% if nil != service.img-caption %}
-           <div class="img-caption">{{ service.img-caption }}</div>
-         {% endif %}
-       </div>
-     </div>
-   </div>
-      {% endfor %}
+      {% if page.sections %}
+        {% include page-sections.html %}
+      {% endif %}
 
     </main>
 

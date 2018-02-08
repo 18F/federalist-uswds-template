@@ -42,18 +42,18 @@ graphics:
     description: In addition to your goal, find out your users’ goals. What do they want to know or do that supports your mission? Use these headings to show those.
 
 sections:
-  - title: "Our work"
-    description: "our-work.md"
-    image: ""
-    image-title:
-  - title: "Pleated Blinds"
-    description: "our-work.md"
-    image: ""
-    image-title:
-    background: dark
-  - title: "Pleated Blinds"
-    description: "our-work.md"
-    image: ""
-    image-title:
+  - title: Our work
+    description: our-work.md
+    image: /assets/uswds/img/circle-124.png
+    image-title: caption1
+  - title: Research report
+    description: research-report.md
+    image: /assets/uswds/img/circle-124.png
+    image-title: caption2
+    class: usa-section-dark
+  - title: Contact us
+    description: contact-us.md
+    image: /assets/uswds/img/circle-124.png
+    image-title: caption3
 
 ---

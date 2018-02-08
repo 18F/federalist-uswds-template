@@ -1,4 +1,5 @@
 Federalist is an [open source] web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, and cloud-based infrastructure for high-scale, low-cost website hosting.
+Federalist is an [open source] web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, and cloud-based infrastructure for high-scale, low-cost website hosting.
 
 The team at [18F] builds and maintains it as a hosted service available to federal government agencies.
 
