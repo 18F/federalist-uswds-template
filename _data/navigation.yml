@@ -1,6 +1,8 @@
 primary:
   - text: Documentation
     href: /docs/
+  - text: Projects
+    href: /projects/
   - text: Navigation section
     links:
       - text: Demo link A

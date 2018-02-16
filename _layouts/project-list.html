@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+{{ content }}
+<style type="text/css">
+.card-deck {
+  display:flex;
+  flex-flow: row wrap;
+}
+.card-deck .card:not(:last-child) {
+   margin-right: 15px;
+}
+.card {
+  width: 20rem;
+  position: relative;
+
+}
+.card-deck .card {
+  display: flex;
+  flex: 1 0 0%
+  flex-direction: column;
+}
+.card-img-top {width: 100%;height: 200px;}
+</style>
+
+
+<div class="card-deck">
+  {% for item in site.projects %}
+    <div class="card">
+      <img class="card-img-top" src="{{ item.image }}" alt="{{ item.image-alt}} ">
+      <div class="card-block">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+        <a href="#" class="usa-button">Go somewhere</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>

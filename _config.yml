@@ -4,3 +4,8 @@ theme: uswds-jekyll
 
 styles:
   - /assets/css/main.css
+
+
+collections:
+  projects:
+    output: true
