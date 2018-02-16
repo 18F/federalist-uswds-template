@@ -1,14 +1,10 @@
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
+  - text: Our work
+    href: "#our-work"
+  - text: Research report
+    href: "#research-report"
+  - text: Contact us
+    href: "#contact-us"
 
 footer:
   - text: Documentation
@@ -17,15 +13,3 @@ footer:
     href: /one/
   - text: Demo link two
     href: /two/
-
-secondary: []
-
-docs:
-  - text: Documentation
-    href: /docs/
-  - text: Installation
-    href: /docs/install/
-  - text: Upgrading
-    href: /docs/upgrade/
-  - text: Help
-    href: /docs/help/
