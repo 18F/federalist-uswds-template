@@ -5,6 +5,7 @@
 # _config.yml).
 
 # title: Header title
+header_title: false
 
 # Used to show or hide the official usa banner at the top of the site.
 # Comment out to the following line to hide the usa banner.
