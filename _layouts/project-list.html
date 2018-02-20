@@ -1,8 +1,9 @@
 ---
 layout: page
 ---
-
+<h1> {{ page.title }} </h1>
 {{ content }}
+
 <style type="text/css">
 .card-deck {
   display:flex;
@@ -42,7 +43,7 @@ layout: page
 <div class="card-deck">
   {% for item in site.projects %}
     <div class="card">
-      <img class="card-img-top" src="{{ item.image }}" alt="{{ item.image-alt}} ">
+      <img class="card-img-top" src="{{ item.small_image }}" alt="{{ item.image-alt}} ">
       <div class="card-body">
         <h3 class="card-title">{{ item.title }}</h3>
         <p class="card-text">{{ item.description }}</p>

@@ -2,10 +2,23 @@
 layout: page
 ---
 
-{{ content }}
 
-{% if page.abstract %}
-<a class="usa-button" href="{{ page.abstract | prepend: site.baseurl }}">View Abstract</a>
-{% endif %}
+<aside class="usa-width-one-fourth usa-layout-docs-sidenav">
+  <ul class="usa-sidenav-list">
+    {% for project in site.projects %}
+      <li>
+        {% if page.permalink == project.permalink %}
+          <a class="usa-current" href="{{ project.permalink | prepend: site.baseurl }}">{{ project.title }}</a>
+        {% else %}
+          <a href="{{ project.permalink | prepend: site.baseurl }}">{{ project.title }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
 
-<p><br></p>
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+  <h1>{{ page.title }}</h1>
+  <img src="{{ page.large_image }}" alt="{{ item.image_alt}} ">
+  {{ content }}
+</div>
