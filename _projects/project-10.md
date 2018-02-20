@@ -3,8 +3,8 @@ layout: project
 title: Microloans for Farmers 2
 permalink: /projects/microloans-for-farmers-2/
 description: A new letter increases farmers' access to credit by 22%.
-large_image: /assets/img/project-images/microloans-for-farmers.jpg
-small_image: /assets/img/project-images/microloans-for-farmers.jpg
+large_image: /assets/img/project-images/project-placeholder.png
+small_image: /assets/img/project-images/project-placeholder.png
 image_alt: alt text here
 ---
 ## What is the issue?

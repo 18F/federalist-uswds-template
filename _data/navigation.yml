@@ -3,6 +3,8 @@ primary:
     href: /docs/
   - text: Projects
     href: /projects/
+  - text: Team
+    href: /team/
   - text: Navigation section
     links:
       - text: Demo link A

@@ -41,16 +41,15 @@ layout: page
 
 
 <div class="card-deck">
-  {% for item in site.projects %}
+  {% for item in site.team %}
     <div class="card">
-      <img class="card-img-top" src="{{ item.small_image }}" alt="{{ item.image_alt }} ">
-      <div class="card-body">
-        <h3 class="card-title">{{ item.title }}</h3>
-        <p class="card-text">{{ item.description }}</p>
-      </div>
-      <div class="card-footer">
-        <a href="{{ site.baseurl }}{{ item.url }}" class="usa-button">Read more</a>
-      </div>
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        <img class="card-img-top" src="{{ item.image }}" alt="photo of {{ item.name }} ">
+        <div class="card-body">
+          <h3 class="card-title">{{ item.name }}</h3>
+          <p class="card-text">{{ item.job_title }}</p>
+        </div>
+      </a>
     </div>
   {% endfor %}
 </div>

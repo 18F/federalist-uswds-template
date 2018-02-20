@@ -5,12 +5,12 @@ layout: page
 
 <aside class="usa-width-one-fourth usa-layout-docs-sidenav">
   <ul class="usa-sidenav-list">
-    {% for item in site.projects %}
+    {% for item in site.team %}
       <li>
         {% if page.permalink == item.permalink %}
-          <a class="usa-current" href="{{ item.permalink | prepend: site.baseurl }}">{{ item.title }}</a>
+          <a class="usa-current" href="{{ item.permalink | prepend: site.baseurl }}">{{ item.name }}</a>
         {% else %}
-          <a href="{{ item.permalink | prepend: site.baseurl }}">{{ item.title }}</a>
+          <a href="{{ item.permalink | prepend: site.baseurl }}">{{ item.name }}</a>
         {% endif %}
       </li>
     {% endfor %}
@@ -18,7 +18,7 @@ layout: page
 </aside>
 
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
-  <h1>{{ page.title }}</h1>
-  <img src="{{ page.large_image }}" alt="{{ page.image_alt }} ">
+  <h1>{{ page.name }}</h1>
+  <img src="{{ page.image }}" alt="photo of {{ page.name }} ">
   {{ content }}
 </div>

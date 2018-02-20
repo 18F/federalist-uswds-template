@@ -3,8 +3,8 @@ layout: project
 title: Servicemember TSP Enrollment
 permalink: /projects/tsp-enrollment/
 description: A single email to military Servicemembers nearly doubled the rate of enrollment for a savings plan.
-large_image: /assets/img/project-images/roth-tsp-enrollment.jpg
-small_image: /assets/img/project-images/roth-tsp-enrollment.jpg
+large_image: /assets/img/project-images/project-placeholder.png
+small_image: /assets/img/project-images/project-placeholder.png
 image_alt: alt text here
 ---
 ## What is the issue?

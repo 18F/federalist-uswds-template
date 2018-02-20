@@ -3,8 +3,8 @@ layout: project
 title: Reducing Summer Melt
 permalink: /projects/reducing-summer-melt/
 description: Eight personalized text messages to low-income students resulted in a nearly 9% increase in college enrollment.
-large_image: /assets/img/project-images/summer-melt.jpg
-small_image: /assets/img/project-images/summer-melt.jpg
+large_image: /assets/img/project-images/project-placeholder.png
+small_image: /assets/img/project-images/project-placeholder.png
 image_alt: alt text here
 ---
 ## What is the issue?
