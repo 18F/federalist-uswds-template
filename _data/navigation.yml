@@ -1,21 +1,17 @@
 secondary:
   - text: Download as PDF
-    href: /docs/
+    href: /
 
-docs:
-  - text: Documentation
-    href: /docs/
-  - text: Installation
-    href: /docs/install/
-  - text: Upgrading
-    href: /docs/upgrade/
-  - text: Help
-    href: /docs/help/
+primary:
+  - text: Home
+    href: /
+  - text: Intro
+    href: /intro/
 
 footer:
   - text: Documentation
-    href: /docs/
+    href: /
   - text: Demo link one
-    href: /one/
+    href: /
   - text: Demo link two
-    href: /two/
+    href: /
