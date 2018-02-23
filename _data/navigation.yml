@@ -4,28 +4,26 @@ primary:
   - text: Navigation section
     links:
       - text: Demo link A
-        href: /two/a/
+        href: /
       - text: Demo link B
-        href: /two/b/
+        href: /
       - text: Demo link C
-        href: /two/c/
+        href: /
 
 footer:
   - text: Documentation
     href: /docs/
   - text: Demo link one
-    href: /one/
+    href: /
   - text: Demo link two
-    href: /two/
-
-secondary: []
+    href: /
 
 docs:
   - text: Documentation
     href: /docs/
   - text: Installation
-    href: /docs/install/
+    href: /
   - text: Upgrading
-    href: /docs/upgrade/
+    href: /
   - text: Help
-    href: /docs/help/
+    href: /
