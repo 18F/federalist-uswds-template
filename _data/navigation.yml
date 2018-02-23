@@ -4,22 +4,26 @@ primary:
   - text: Navigation section
     links:
       - text: Demo link A
-        href: /docs/
+        href: /
       - text: Demo link B
-        href: /docs/
+        href: /
       - text: Demo link C
-        href: /docs/
+        href: /
 
 footer:
   - text: Documentation
     href: /docs/
   - text: Demo link one
-    href: /docs/
+    href: /
   - text: Demo link two
-    href: /docs/
+    href: /
 
 docs:
   - text: Documentation
     href: /docs/
-  - text: Home
+  - text: Installation
+    href: /
+  - text: Upgrading
+    href: /
+  - text: Help
     href: /
