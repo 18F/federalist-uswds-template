@@ -2,6 +2,8 @@ title: This is the site title
 
 theme: uswds-jekyll
 
+site_width: wide
+
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
