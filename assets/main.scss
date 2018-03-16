@@ -1,21 +1,38 @@
 ---
-# assets/main.scss
 ---
-// set your variables or @import them here.
 
-// Setup for the US Web Design Standards
-$font-path: 'uswds/fonts';
-$image-path: 'uswds/img';
-@import 'uswds/all';
+.usa-header-extended {
+  border-bottom: 0;
 
-// Optional includes 
+  .usa-navbar {
+    border: 0;
+  }
 
-// styles for the slim header
-{% if site.data.header.type == 'slim' %}
-@import 'header--slim';
-{% endif %}
+  .usa-logo {
+    float: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 
-// styles for the site wide
-{% if site.site_width == 'wide' %}
-@import 'site-wide';
-{% endif %}
+    .usa-logo-text {
+      font-family: 'Merriweather', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+      line-height: 1.3;
+    }
+}
+
+  @media (min-width: 951px) {
+    .usa-navbar {
+      height: auto;
+    }
+
+    .usa-logo {
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
+    }
+
+    .usa-logo-text {
+      font-size: 2.6rem;
+    }
+  }
+}
