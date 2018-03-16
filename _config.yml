@@ -29,4 +29,4 @@ github:
 # search_site_handle: searchgov-site-handle
 
 styles:
-  - /assets/main.css
+  - /assets/css/site.css
