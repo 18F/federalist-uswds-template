@@ -1,6 +1,7 @@
 secondary:
   - text: Download as PDF
     href: /
+    class: usa-button
 
 primary:
   - text: Home

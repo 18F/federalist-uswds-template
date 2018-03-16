@@ -12,7 +12,7 @@ usa_banner: true
 # Header types can be 'basic' or 'extended'.
 # Basic - https://components.designsystem.digital.gov/components/detail/header--basic.html
 # Extended - https://components.designsystem.digital.gov/components/detail/header--extended.html
-type: slim
+type: extended
 
 # this is a key into _data/navigation.yml
 primary:
