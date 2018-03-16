@@ -36,3 +36,6 @@ collections:
     output: true
   team:
     output: true
+
+styles:
+  - /assets/css/site.css
