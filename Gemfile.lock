@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/18F/uswds-jekyll.git
-  revision: 2b2dcdf0aca440e8f7e417930783489fb46b6d3f
+  revision: feae6a47126a705876a48fad8775d5ca9a46fa33
   specs:
-    uswds-jekyll (4.0.0)
+    uswds-jekyll (4.1.0)
       jekyll (~> 3.4)
 
 GEM
@@ -18,7 +18,6 @@ GEM
     eventmachine (1.2.5)
     ffi (1.9.23)
     forwardable-extended (2.6.0)
-    htmlentities (4.3.4)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -39,12 +38,6 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jekyll_pages_api (0.1.6)
-      htmlentities (~> 4.3)
-      jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.5.0)
-      jekyll_pages_api (~> 0.1.4)
-      sass (~> 3.4)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -71,7 +64,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll_pages_api_search
   uswds-jekyll!
 
 BUNDLED WITH
