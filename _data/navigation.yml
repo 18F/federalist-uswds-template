@@ -8,6 +8,8 @@ primary:
     href: /
   - text: Intro
     href: /intro/
+  - text: Theme
+    href: /theme/
 
 footer:
   - text: Documentation
