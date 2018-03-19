@@ -1,6 +1,6 @@
 secondary:
   - text: Download as PDF
-    href: /
+    href: /assets/docs/sample-document.pdf
     class: usa-button
 
 primary:
