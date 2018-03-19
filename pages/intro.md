@@ -12,7 +12,7 @@ sidenav: primary
 
 ## Et quis doctrina
 
-![United States seal](/assets/img/us_seal.png "United States seal")
+![United States seal]({{site.baseurl}}/assets/img/us_seal.png "United States seal")
 
 Summis laborum de exercitation ne ut an malis admodum, tamen et constias. Expetendis id arbitror, sint mentitum ad cupidatat. Ullamco cillum quibusdam, laboris o anim eiusmod, an aliqua iudicem domesticarum, esse qui an elit occaecat, ullamco nisi legam iudicem tamen, est id coniunctione nam aut pariatur ita voluptate sed commodo dolor probant.Sunt sed te amet commodo, ne illum pariatur possumus. Ullamco qui eram aliquip, probant elit cernantur, ita iudicem do quibusdam, iudicem quae sint quo veniam. Quid quamquam id eiusmod hic iis consequat efflorescere se nam dolor quibusdam familiaritatem, fore comprehenderit nescius sint mandaremus. Ea tamen mandaremus excepteur, nam iis praetermissum, mandaremus noster laborum occaecat non admodum enim tamen pariatur summis.
 
