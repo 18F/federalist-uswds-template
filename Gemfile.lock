@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/18F/uswds-jekyll.git
-  revision: 2f5e517f05464a7eea9666c806635db03185983d
+  revision: feae6a47126a705876a48fad8775d5ca9a46fa33
   specs:
-    uswds-jekyll (3.0.0)
+    uswds-jekyll (4.1.0)
       jekyll (~> 3.4)
 
 GEM
@@ -16,12 +16,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.5)
-    ffi (1.9.21)
+    ffi (1.9.23)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.7.2)
+    jekyll (3.7.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -52,7 +52,7 @@ GEM
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.13)
     public_suffix (3.0.2)
-    rb-fsevent (0.10.2)
+    rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rouge (3.1.1)
@@ -72,4 +72,4 @@ DEPENDENCIES
   uswds-jekyll!
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
