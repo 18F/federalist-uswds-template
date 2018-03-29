@@ -6,6 +6,9 @@ github:
   organization: 18F
   repository: federalist-uswds-template
   default_branch: master
+  
+hero:
+ image: /assets/img/hero.jpg
 
 theme: uswds-jekyll
 
