@@ -65,7 +65,7 @@ colors:
   footer:
     primary-footer-bg: '#292A2B'
     primary-footer-link: '#D5D8DB'
-    footer-bg: '#D5D8DB'
+    footer-bg: '#292A2B'
     footer-text: '#FFFFFF'
     footer-link: '#FFFFFF'
 
