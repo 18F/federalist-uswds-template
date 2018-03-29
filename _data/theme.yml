@@ -4,11 +4,11 @@
 ## 'base' - Defines header site title, active top nav link color, left nav link color, link color in primary and main footer and text in usa-banner
 ## 'visited' - Defines visited link color
 #
-# colors:
-#   primary: 'DodgerBlue'
-#   primary-darker: 'pink'
-#   base: 'orange'
-#   visited: 'red'
+colors:
+  primary: '#8C9196'
+  primary-darker: '#292A2B'
+  base: '#FFFFFF'
+  visited: '#292A2B'
 #
 # # USA banner colors
 #   usa-banner:
