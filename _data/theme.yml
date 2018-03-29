@@ -5,9 +5,9 @@
 ## 'visited' - Defines visited link color
 #
 colors:
-  primary: '#8C9196'
-  primary-darker: '#292A2B'
-  base: '#FFFFFF'
+  primary: '#0069B4'
+  primary-darker: '#0C4D82'
+  base: '#292A2B'
   visited: '#292A2B'
 #
 # # USA banner colors
