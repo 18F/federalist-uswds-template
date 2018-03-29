@@ -13,8 +13,8 @@ colors:
 # USA banner colors
   usa-banner:
     usa-banner-bg: '#292A2B'
-    usa-banner-text: '#8C9196'
-    usa-banner-link: '#8C9196'
+    usa-banner-text: '#D5D8DB'
+    usa-banner-link: '#D5D8DB'
     usa-banner-link-hover: '#FFFFFF'
 
 # Header colors
@@ -37,8 +37,8 @@ colors:
     hero-bg: '#D5D8DB'
     hero-header: '#292A2B'
     hero-header-alt: '#292A2B'
-    hero-text: '#8C9196'
-    hero-link: '#8C9196'
+    hero-text: '#292A2B'
+    hero-link: '#292A2B'
     hero-button-bg: '#007ADE'
     hero-button-text: '#FFFFFF'
 
