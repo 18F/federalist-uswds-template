@@ -14,7 +14,7 @@ colors:
   usa-banner:
     usa-banner-bg: '#292A2B'
     usa-banner-text: '#8C9196'
-    usa-banner-link: '#D5D8DB'
+    usa-banner-link: '#8C9196'
     usa-banner-link-hover: '#FFFFFF'
 
 # Header colors
