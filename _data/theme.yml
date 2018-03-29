@@ -7,52 +7,52 @@
 colors:
   primary: '#0069B4'
   primary-darker: '#0C4D82'
-  base: '#292A2B'
-  visited: '#292A2B'
-#
-# # USA banner colors
-#   usa-banner:
-#     usa-banner-bg: 'LightBlue'
-#     usa-banner-text: 'Black'
-#     usa-banner-link: 'Gray'
-#     usa-banner-link-hover: 'Gray'
-#
-# # Header colors
-#   header:
-#     header-bg: '#e6e3d0'
-#     header-title: 'Black'
-#     header-link: 'DarkSlateGray'
-#     header-link-hover: 'Indigo'
-#
-# # Alt section colors
-#   alt-section:
-#     bg-color: '#e6e3d0'
-#     header-color: 'DarkSlateGray'
-#     text-color: 'Black'
-#     link-color: 'red'
-#     link-hover-color: 'orange'
-#
-# # Hero colors
-#   hero:
-#     hero-bg: 'white'
-#     hero-header: 'DarkSlateGray'
-#     hero-header-alt: 'DarkSlateGray'
-#     hero-text: 'Gray'
-#     hero-link: 'DodgerBlue'
-#     hero-button-bg: 'DodgerBlue'
-#     hero-button-text: 'white'
-#
-# # Top navigation colors
-#   top-navigation:
-#     top-nav-bg: 'DarkSlateGray'
-#     top-nav-link: 'white'
-#     top-nav-link-hover: 'black'
-#     top-nav-link-hover-bg: '#6eb7b7'
-#     top-nav-link-current: 'black'
-#     top-nav-dropdown-bg: '#6eb7b7'
-#     top-nav-dropdown-link: 'orange'
-#     top-nav-dropdown-link-hover-bg: 'DarkSlateGray'
-#
+  base: '#007ADE'
+  visited: '#009AFA'
+
+# USA banner colors
+  usa-banner:
+    usa-banner-bg: '#292A2B'
+    usa-banner-text: '#8C9196'
+    usa-banner-link: '#D5D8DB'
+    usa-banner-link-hover: '#FFFFFF'
+
+# Header colors
+  header:
+    header-bg: '#D5D8DB'
+    header-title: '#292A2B'
+    header-link: '#8C9196'
+    header-link-hover: '#FFFFFF'
+
+# Alt section colors
+  alt-section:
+    bg-color: '#292A2B'
+    header-color: '#FFFFFF'
+    text-color: '#FFFFFF'
+    link-color: '#FFFFFF'
+    link-hover-color: '#FFFFFF'
+
+# Hero colors
+  hero:
+    hero-bg: '#D5D8DB'
+    hero-header: '#292A2B'
+    hero-header-alt: '#292A2B'
+    hero-text: '#8C9196'
+    hero-link: '#8C9196'
+    hero-button-bg: '#007ADE'
+    hero-button-text: '#FFFFFF'
+
+# Top navigation colors
+  top-navigation:
+    top-nav-bg: '#D5D8DB'
+    top-nav-link: '#292A2B'
+    top-nav-link-hover: '#D5D8DB'
+    top-nav-link-hover-bg: '#292A2B'
+    top-nav-link-current: '#8C9196'
+    top-nav-dropdown-bg: '#D5D8DB'
+    top-nav-dropdown-link: '#007ADE'
+    top-nav-dropdown-link-hover-bg: '#D5D8DB'
+
 # # Side navigation colors
 #   side-navigation:
 #     side-nav-bg: 'white'
@@ -61,15 +61,15 @@ colors:
 #     side-nav-link-hover-bg: 'DarkSlateGray'
 #     side-nav-link-current: 'DarkSlateGray'
 #
-# # Footer colors
-#   footer:
-#     primary-footer-bg: 'Gainsboro'
-#     primary-footer-link: 'black'
-#     footer-bg: 'DarkSlateGray'
-#     footer-text: 'white'
-#     footer-link: 'LightBlue'
-#
-#
+# Footer colors
+  footer:
+    primary-footer-bg: '#292A2B'
+    primary-footer-link: '#D5D8DB'
+    footer-bg: '#D5D8DB'
+    footer-text: '#FFFFFF'
+    footer-link: '#FFFFFF'
+
+
 # # Font configurations
 # # 'sans' - Defines navigation and body text
 # # 'serif' - Defines headings
