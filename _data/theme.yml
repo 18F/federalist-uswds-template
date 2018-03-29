@@ -63,9 +63,9 @@ colors:
 #
 # Footer colors
   footer:
-    primary-footer-bg: '#292A2B'
-    primary-footer-link: '#D5D8DB'
-    footer-bg: '#292A2B'
+    primary-footer-bg: '#8C9196'
+    primary-footer-link: '#FFFFFF'
+    footer-bg: '#8C9196'
     footer-text: '#FFFFFF'
     footer-link: '#FFFFFF'
 
