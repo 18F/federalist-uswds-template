@@ -50,8 +50,8 @@ colors:
     top-nav-link-hover-bg: '#292A2B'
     top-nav-link-current: '#8C9196'
     top-nav-dropdown-bg: '#292A2B'
-    top-nav-dropdown-link: '#007ADE'
-    top-nav-dropdown-link-hover-bg: '#8C9196'
+    top-nav-dropdown-link: '#0C4D82'
+    top-nav-dropdown-link-hover-bg: '#D5D8DB'
 
 # # Side navigation colors
 #   side-navigation:
