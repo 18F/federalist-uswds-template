@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% assign hero = page.hero %}
+{% include components/hero.html %}
+
+{% if page.tagline and page.intro %}
+<section class="usa-grid usa-section">
+  <div class="usa-width-one-third">
+    <h2>{{ page.tagline }}</h2>
+  </div>
+  <div class="usa-width-two-thirds">
+    {{ page.intro | markdownify }}
+  </div>
+</section>
+{% endif %}
+
+{% capture _graphics %}
+  {% include graphic-list.html graphics=page.graphics %}
+{% endcapture %}
+{% if page.graphics_position != 'after' %}{{ _graphics }}{% endif %}
+
+<section class="usa-section">
+  <div class="usa-grid">
+    {{ content }}
+  </div>
+</section>
+
+{% if page.graphics_position == 'after' %}{{ _graphics }}{% endif %}
+
+<!–– this is the Maya source code––>
+
+<div class="usa-grid pt5">
+  <div class="usa-width-one-half">
+    <h1>Page heading</h1>
+    <p class="usa-font-lead">A subheading clarifies the headline and leads the reader into the text.</p>
+    <p>The sprawling landscape encompasses lush forests and an abundance of wildflowers that bloom year-round. Streams, rivers and waterfalls appear along hiking routes that include a segment of the Appalachian Trail.</p>
+  </div>
+  <div class="usa-width-one-half">
+    <h6 class="">Colors</h6>
+    <div class="usa-grid-full usa-color-row usa-primary-color-section">
+      <div class="usa-color-square usa-color-primary bg-primary">
+      </div>
+      <div class="usa-color-square usa-color-primary-darker bg-primary-darker usa-mobile-end-row">
+      </div>
+      <div class="usa-color-square bg-primary-darkest usa-color-primary-darkest">
+      </div>
+      <div class="usa-color-square usa-color-base usa-mobile-end-row">
+      </div>
+      <div class="usa-color-square usa-color-white- bg-primary-lightest- usa-end-row">
+      </div>
+    </div>
+    <div class="usa-grid-full usa-color-row usa-primary-color-section">
+      <div class="usa-color-square bg-accent">
+      </div>
+      <div class="usa-color-square bg-accent-light usa-mobile-end-row">
+      </div>
+      <div class="usa-color-square bg-accent-lightest">
+      </div>
+      <div class="usa-color-square usa-color- usa-mobile-end-row">
+      </div>
+      <div class="usa-color-square usa-color- usa-end-row">
+      </div>
+    </div>
+    <hr>
+    <h2 class="description">Basic web design system: trustworthy, clear, official</h2>
+  </div>
+</div>
