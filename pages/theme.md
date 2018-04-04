@@ -3,6 +3,12 @@ layout: page
 permalink: /theme/
 sidenav: primary
 ---
+
+<!---
+Comment:
+This page is here to demonstrate how the site would display different types of user interface components.
+-->
+
 # Links
 
 [This](javascript:void(0);) is a text link on a light background.
