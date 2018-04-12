@@ -24,7 +24,7 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in
 > this waiver of copyright interest.
 
 
-[basic report template docs]: https://github.com/18F/federalist-uswds-template/wiki/Basic-report-template
+[basic report template docs]: https://federalist-docs.18f.gov/pages/using-federalist/templates/basic-report/
 [Federalist]: https://federalist.18f.gov/sites
 [Jekyll theme]: https://jekyllrb.com/docs/themes/
 [uswds]: https://designsystem.digital.gov/
